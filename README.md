@@ -1,10 +1,8 @@
 # Итоговый проект курса "Машинное обучение в бизнесе"
-Автор: Андрей Шатаев
+Автор: 
+Егорова Анастасия
 
-Стек:
-- ML: sklearn, pandas, numpy
-- API: flask
-- Данные: Kaggle - https://www.kaggle.com/arashnic/hr-analytics-job-change-of-data-scientists
+Данные: Kaggle - https://www.kaggle.com/arashnic/hr-analytics-job-change-of-data-scientists
 
 Задача: предсказать вероятность смены работы по характеристикам сотрудника. Бинарная классификация
 
@@ -28,7 +26,7 @@
 
 ### Клонируем репозиторий
 ```
-$ git clone https://github.com/shatandv/GB-ML-Business-Project.git ml_api_project
+$ git clone git@github.com:kostoprav00/ML_business_project.git ml_api_project
 $ cd ml_api_project
 ```
 
@@ -37,5 +35,3 @@ $ cd ml_api_project
 ```
 $ docker-compose up -d
 ```
-
-### Можно отправить POST-запрос на 127.0.0.1:8180/predict c полями, указанными в "Признаках"
